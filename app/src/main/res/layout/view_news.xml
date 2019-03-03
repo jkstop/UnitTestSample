@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:background="?attr/selectableItemBackground"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            tools:text="Title"
+            android:id="@+id/vNewsTitle"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+
+    <androidx.appcompat.widget.AppCompatTextView
+            tools:text="Description"
+            android:id="@+id/vNewsDescription"
+            android:textColor="#cccccc"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+
+    <androidx.appcompat.widget.AppCompatTextView
+            tools:text="12.12.2012"
+            android:id="@+id/vNewsDate"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+
+</LinearLayout>
